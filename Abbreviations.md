@@ -1,5 +1,5 @@
 # **Abbreviations and their meaning from the compendia.**
-Sh
+Weekly [Schedule](https://gitlab.com/erikhje/dcsg1005/-/blob/master/schedule.md)
 Compendia: [Erik's GitLab](https://gitlab.com/erikhje/dcsg1005/-/blob/master/compendia.md#markdown)
 
 ## Chapter 5: 
