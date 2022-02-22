@@ -9,3 +9,4 @@ Compendia: [Erik's GitLab](https://gitlab.com/erikhje/dcsg1005/-/blob/master/com
 RFC = Request for Comments
     - A numbered document that described the standards, protocols and techologies
     of the internet and TCP/IP.
+
