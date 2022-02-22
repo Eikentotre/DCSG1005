@@ -9,11 +9,11 @@ Todo:
  
 > # User OUs
 > New-ADOrganizationalUnit 'AllUsers' -Description 'Containing OUs and users'
-> New-ADOrganizationalUnit 'IT' -Description 'IT staff' `
->   -Path 'OU=AllUsers,DC=sec,DC=core'
-> New-ADOrganizationalUnit 'Cons' -Description 'Consultants' `
->   -Path 'OU=AllUsers,DC=sec,DC=core'
-> New-ADOrganizationalUnit 'Adm' -Description 'Administration' `
+ New-ADOrganizationalUnit 'IT' -Description 'IT staff' `
+   -Path 'OU=AllUsers,DC=sec,DC=core'
+ New-ADOrganizationalUnit 'Cons' -Description 'Consultants' `
+   -Path 'OU=AllUsers,DC=sec,DC=core'
+ New-ADOrganizationalUnit 'Adm' -Description 'Administration' `
   -Path 'OU=AllUsers,DC=sec,DC=core'
 New-ADOrganizationalUnit 'Blue' -Description 'Blue Team' `
   -Path 'OU=Cons,OU=AllUsers,DC=sec,DC=core'
