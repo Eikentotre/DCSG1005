@@ -10,7 +10,10 @@ RFC = Request for Comments
     - A numbered document that describes the standards, protocols and techologies
     of the internet and TCP/IP.
 
+<<<<<<< HEAD
 
 ## Active Directory: Design and Implementation
 
 ## Remoting, Config Management and Group Policy
+=======
+>>>>>>> 6bece156c887d7f7677d52dca7246e23c0165ce5
