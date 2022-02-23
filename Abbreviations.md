@@ -7,5 +7,10 @@ Compendia: [Erik's GitLab](https://gitlab.com/erikhje/dcsg1005/-/blob/master/com
 ### **Active Directory: DNS, LDAP and Kerberos** 
 
 RFC = Request for Comments
-    - A numbered document that described the standards, protocols and techologies
+    - A numbered document that describes the standards, protocols and techologies
     of the internet and TCP/IP.
+
+
+## Active Directory: Design and Implementation
+
+## Remoting, Config Management and Group Policy
