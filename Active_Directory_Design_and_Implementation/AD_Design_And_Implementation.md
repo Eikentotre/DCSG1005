@@ -31,6 +31,9 @@ New-ADOrganizationalUnit 'Cons' -Description 'Consultants laptops' `
 
 Så skal disse flyttes til OU'ene fra containeren de er i, ved å skrive 'get-adc
 
+Prio list: 
+1. Sett opp brukere, Organizational chart osv
+2. Sett opp GPO, og gjør aaaalt du vil av endringer.
 
 
 
