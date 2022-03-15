@@ -1,16 +1,16 @@
 # Usage: myvms.ps1 [mgr|cl1|dc1|srv1|mgra|cl1a|dc1a|srv1a]
 
 # floating ip's and the Admin-user-password for each host (retrieve from SkyHiGh):
-$mgr_ip ="10.212.142.164"
-$mgr_pw ="zHQ9gguJ2H5othxuX8DS"
-$cl1_ip ="10.212.139.116"
-$cl1_pw ="Kb1Jzfx64rL1JPEhwXdU"
-$dc1_ip ="10.212.139.52"
-$dc1_pw ="5Px02ZhdHXqmLDKZjzfb"
-$srv1_ip="10.212.143.190"
-$srv1_pw="hgfCAVvUDQBfKjhVK3B7"
+$mgr_ip ="10.212.137.123"
+$mgr_pw ="PaPnflirRDB6OF4wFvVJ"
+$cl1_ip ="10.212.140.109"
+$cl1_pw ="I05y5Jz3zxfExhrYbSwZ"
+$dc1_ip =" 10.212.136.69"
+$dc1_pw ="vEgkdgcuP4KwXjPY8fhd"
+$srv1_ip="10.212.136.156"
+$srv1_pw="y7MzxjOp3lRmUPRkRAdz"
 # domain administrator password (you set this yourself when creating the domain):
-$dc1a_pw="E|/XlkG)#h(0Z[*>KF%~"
+$dc1a_pw=""
 
 $logintype=$args[0]
 
