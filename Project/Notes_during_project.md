@@ -32,7 +32,7 @@ exit
 ´´´
 
 4. Installerer AD og setter administrator-passord på det som blir domene-administrator:
-´´´
+```powershell
 # run as administrator
 Install-WindowsFeature AD-Domain-Services, DNS -IncludeManagementTools
 $Password = Read-Host -Prompt 'Enter Password' -AsSecureString
@@ -55,4 +55,4 @@ Get-ADForest
 Get-ADDomain
 # Any computers joined the domain?
 Get-ADComputer -Filter *
-´´´
+```
