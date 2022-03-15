@@ -48,7 +48,7 @@ New-ADOrganizationalUnit 'Cons' -Description 'Consultants laptops' `
 
 Så skal disse flyttes til OU'ene fra containeren de er i, ved å skrive 'get-adc
 
-Prio list: 
+### Prio list: 
 1. Opprette Organizational Units
 > New-ADOrganizationalUnit
 2. Legger til brukere, og angir hvilken OU de skal tilhøre i samme slengen. Ellers havner de i Computers containeren. 
