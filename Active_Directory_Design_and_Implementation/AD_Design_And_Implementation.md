@@ -13,18 +13,31 @@ Todo:
  
 > # User OUs
 > New-ADOrganizationalUnit 'AllUsers' -Description 'Containing OUs and users'
+
  New-ADOrganizationalUnit 'IT' -Description 'IT staff' `
+
    -Path 'OU=AllUsers,DC=sec,DC=core'
+
  New-ADOrganizationalUnit 'Cons' -Description 'Consultants' `
+
    -Path 'OU=AllUsers,DC=sec,DC=core'
+
  New-ADOrganizationalUnit 'Adm' -Description 'Administration' `
+
   -Path 'OU=AllUsers,DC=sec,DC=core'
+
 New-ADOrganizationalUnit 'Blue' -Description 'Blue Team' `
+
   -Path 'OU=Cons,OU=AllUsers,DC=sec,DC=core'
+
 New-ADOrganizationalUnit 'Red' -Description 'Red Team' `
+
   -Path 'OU=Cons,OU=AllUsers,DC=sec,DC=core'
+
 New-ADOrganizationalUnit 'DFIR' -Description 'Dig For and Inc Resp' `
+
   -Path 'OU=Cons,OU=AllUsers,DC=sec,DC=core'
+
 # Computer OUs
 New-ADOrganizationalUnit 'Clients' -Description 'Containing OUs and users laptops'
 New-ADOrganizationalUnit 'Servers' -Description 'Containing OUs and servers'
