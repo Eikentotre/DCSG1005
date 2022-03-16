@@ -4,7 +4,6 @@ Scripts ogsånt - [heat-mono](https://gitlab.com/erikhje/heat-mono)
 
 Idémyldring: 
 
-
 ## Bergsprekken.Trening - Treningsutstyr
 
 Økonomi og regnskap, administrasjon(ledelsen og personal), IT-avdeling,
@@ -71,3 +70,22 @@ Get-ADDomain
 Get-ADComputer -Filter *
 ```
 
+### 5. Legge til VM'ene i domenet.
+```
+# run as administrator
+Get-NetAdapter | Set-DnsClientServerAddress -ServerAddresses 192.168.111.183
+$cred = Get-Credential -UserName 'Bergsprekken\Administrator' -Message 'Cred'
+Add-Computer -Credential $cred -DomainName Bergsprekken.Trening -PassThru -Verbose
+Restart-Computer
+```
+
+
+
+
+
+
+
+
+Timeregistrering: 
+15. mars: 7t
+16. mars: 16:00 - 
