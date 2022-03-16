@@ -10,7 +10,7 @@ $dc1_pw ="L7iWo33M2lDTWrJQFfnr"
 $srv1_ip="10.212.141.204"
 $srv1_pw="OgV2gOu6CBzVzleWZDTZ"
 # domain administrator password (you set this yourself when creating the domain):
-$dc1a_pw=
+$dc1a_pw="ot(~KxcSDjl=9_qJ,1Ck"
 
 $logintype=$args[0]
 
