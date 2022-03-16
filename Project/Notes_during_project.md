@@ -44,12 +44,15 @@ Generere passord:
 ```powershell
 # run as administrator
 Install-WindowsFeature AD-Domain-Services, DNS -IncludeManagementTools
+#^Installerer programvaren for AD.
 $Password = Read-Host -Prompt 'Enter Password' -AsSecureString
+#^Leser inn passordet du har generert i variabelen Passord
 Set-LocalUser -Password $Password Administrator
+#^Endrer passordet til den lokale administratoren som ender opp med å bli domene-administrator
 $Params = @{
     DomainMode                    = 'WinThreshold'
-    DomainName                    = 'sec.core'
-    DomainNetbiosName             = 'SEC'
+    DomainName                    = 'Bergsprekken.Trening'
+    DomainNetbiosName             = 'Bergsprekken'
     ForestMode                    = 'WinThreshold'
     InstallDns                    = $true
     NoRebootOnCompletion          = $true
@@ -65,3 +68,4 @@ Get-ADDomain
 # Any computers joined the domain?
 Get-ADComputer -Filter *
 ```
+
