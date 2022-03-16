@@ -1,6 +1,6 @@
 # This file will contain notes to self
 
-[[_TOC__]
+[[_TOC_]]
 
 Scripts ogsånt - [heat-mono](https://gitlab.com/erikhje/heat-mono)
 
