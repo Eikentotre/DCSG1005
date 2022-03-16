@@ -1,5 +1,7 @@
 # This file will contain notes to self
 
+- Scripts ogsånt - [heat-mono](https://gitlab.com/erikhje/heat-mono)
+
 Idémyldring: 
 
 
