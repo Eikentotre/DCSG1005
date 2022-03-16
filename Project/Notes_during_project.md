@@ -3,7 +3,7 @@
 Idémyldring: 
 
 
-## Bergsprekken - Treningsutstyr
+## Bergsprekken.Trening - Treningsutstyr
 
 Økonomi og regnskap, administrasjon(ledelsen og personal), IT-avdeling,
  selgere, 
