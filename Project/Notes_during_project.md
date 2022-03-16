@@ -1,5 +1,7 @@
 # This file will contain notes to self
 
+[[_TOC__]
+
 Scripts ogsånt - [heat-mono](https://gitlab.com/erikhje/heat-mono)
 
 Idémyldring: 
