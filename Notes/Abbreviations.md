@@ -16,3 +16,5 @@ DC(Domain component)        = sec
                             = core
 DN                          = Distinguished name
 Splatting                   = Legger parametre i en hash-tabell for å få det oversiktlig.
+
+Provisioning // tilgjengeliggjøring
